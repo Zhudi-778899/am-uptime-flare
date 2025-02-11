@@ -77,9 +77,11 @@ export default function Home({
           <a href="https://github.com/amclubs/am-uptime-flare" target="_blank">
             UptimeFlare
           </a>{' '}
-          and{' '}
+          和{' '}
           <a href="https://www.cloudflare.com/" target="_blank">
             Cloudflare
+          </a>
+          提供支持
           </a>
           ， 由{' '}
           <a href="https://github.com/Zhudi-778899" target="_blank">
