@@ -17,7 +17,6 @@ const workerConfig = {
   // passwordProtection: 'username:password',
   // Define all your monitors here
   monitors: [
-monitors: [
     // Example HTTP Monitor
     // {
       // `id` should be unique, history will be kept if the `id` remains constant
