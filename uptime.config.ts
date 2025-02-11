@@ -51,7 +51,7 @@ const workerConfig = {
     // Example TCP Monitor
     {
       id: 'blog.075262.xyz',
-      name: '个人博客'，
+      name: '个人博客',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
