@@ -61,7 +61,7 @@ monitors: [
       statusPageLink: 'https://blog.075262.xyz',
       timeout: 10000,
     },
-]，	
+  ],
   notification: {
     // [Optional] apprise API server URL
     // if not specified, no notification will be sent
