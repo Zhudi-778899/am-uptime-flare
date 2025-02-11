@@ -73,17 +73,21 @@ export default function Home({
         <Text size="xs" mt="xs" mb="xs" style={{
           textAlign: 'center'
         }}>
-          Open-source monitoring and status page powered by{' '}
+          开源监控和状态页面由{' '}
           <a href="https://github.com/amclubs/am-uptime-flare" target="_blank">
             UptimeFlare
           </a>{' '}
-          and{' '}
+          和{' '}
           <a href="https://www.cloudflare.com/" target="_blank">
             Cloudflare
           </a>
-          , made with ❤ by{' '}
-          <a href="https://github.com/amclubs" target="_blank">
+            提供支持
+          </a>
+          ， 由{' '}
+          <a href="https://github.com/Zhudi-778899" target="_blank">
             Zhudi
+          </a>
+          ， 用❤制作
           </a>
           .
         </Text>
