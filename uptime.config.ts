@@ -58,7 +58,7 @@ const workerConfig = {
       target: 'https://blog.075262.xyz',
       tooltip: '我的博客状态监控器',
       statusPageLink: 'https://blog.075262.xyz',
-      timeout: 10000,
+      timeout:  3600,
     },
     {
       id: 'edt.looool.us.kg',
@@ -69,7 +69,7 @@ const workerConfig = {
       target: 'https://edt.looool.us.kg',
       tooltip: 'Edgetunnel状态监控',
       statusPageLink: 'https://edt.looool.us.kg',
-      timeout: 10000,
+      timeout: 3600,
     },
     {
       id: 'VLESS.iooooi.us.kg',
@@ -80,7 +80,7 @@ const workerConfig = {
       target: 'https://vless.iooooi.us.kg',
       tooltip: 'CF-VLESS订阅器状态监控',
       statusPageLink: 'https://vless.iooooi.us.kg',
-      timeout: 10000,
+      timeout: 3600,
     },
   ],
   notification: {
