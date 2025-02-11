@@ -1,12 +1,12 @@
 const pageConfig = {
   // Title for your status page
-  title: "AM科技's Status Page",
+  title: "Sky-Cat's 主机监控",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://am.809098.xyz', label: '个人博客', highlight: true },
-    { link: 'https://youtube.com/@AM_CLUB', label: 'AM科技' },
-    { link: 'https://github.com/amclubs', label: 'GitHub' },
-    { link: 'https://809098.xyz', label: 'Blog'},
+    { link: 'https://blog.075262.xyz', label: '个人博客', highlight: true },
+//    { link: 'https://youtube.com/@AM_CLUB', label: 'AM科技' },
+//    { link: 'https://github.com/amclubs', label: 'GitHub' },
+ //   { link: 'https://809098.xyz', label: 'Blog'},
   ],
 }
 
@@ -17,24 +17,25 @@ const workerConfig = {
   // passwordProtection: 'username:password',
   // Define all your monitors here
   monitors: [
+monitors: [
     // Example HTTP Monitor
-    {
+    // {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'am.809098.xyz',
+      // id: 'am.809098.xyz',
       // `name` is used at status page and callback message
-      name: '个人博客',
+      // name: '个人博客',
       // `method` should be a valid HTTP Method
-      method: 'GET',
+      // method: 'GET',
       // `target` is a valid URL
-      target: 'https://am.809098.xyz',
+      // target: 'https://am.809098.xyz',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'This is a tooltip for this monitor',
+      // tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://am.809098.xyz',
+      // statusPageLink: 'https://am.809098.xyz',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       // expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
-      timeout: 10000,
+      // timeout: 10000,
       // [OPTIONAL] headers to be sent
       // headers: {
       //   'User-Agent': 'Uptimeflare',
@@ -47,20 +48,20 @@ const workerConfig = {
       // [OPTIONAL] if specified, the check will run in your specified region,
       // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
       // checkLocationWorkerRoute: 'https://am.809098.xyz',
-    },
+    // },
     // Example TCP Monitor
     {
-      id: '809098.xyz',
-      name: 'Blog',
+      id: 'blog.075262.xyz',
+      name: '个人博客'，
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://809098.xyz',
-      tooltip: 'My production server monitor',
-      statusPageLink: 'https://809098.xyz',
+      target: 'https://blog.075262.xyz',
+      tooltip: '我的博客状态监控器',
+      statusPageLink: 'https://blog.075262.xyz',
       timeout: 10000,
     },
-  ],
+]，	
   notification: {
     // [Optional] apprise API server URL
     // if not specified, no notification will be sent
