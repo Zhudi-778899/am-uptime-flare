@@ -62,24 +62,24 @@ const workerConfig = {
     },
     {
       id: 'edt.looool.us.kg',
-      name: 'CF-Vless订阅工具',
+      name: 'Edgetunnel',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://edt.looool.us.kg',
-      tooltip: 'Cloudflare-Vless订阅状态监控',
+      tooltip: 'Edgetunnel状态监控',
       statusPageLink: 'https://edt.looool.us.kg',
       timeout: 10000,
     },
     {
-      id: '93f3e31c-6eac-4a45-a63c-b9d1a351712d@edt.looool.us.kg:443?encryption=none&security=tls&sni=edt.looool.us.kg&fp=randomized&type=ws&host=edt.looool.us.kg&path=%2F%3Fed%3D2560#edgetunnel',
-      name: 'CF-Vless节点',
+      id: 'VLESS.iooooi.us.kg',
+      name: 'CF-VLESS订阅器',
       // `method` should be `TCP_PING` for tcp monitors
-      method: 'TCP',
+      method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'vless://93f3e31c-6eac-4a45-a63c-b9d1a351712d@edt.looool.us.kg:443?encryption=none&security=tls&sni=edt.looool.us.kg&fp=randomized&type=ws&host=edt.looool.us.kg&path=%2F%3Fed%3D2560#edgetunnel',
-      tooltip: 'CF-Vless节点有效性检测',
-      statusPageLink: 'vless://93f3e31c-6eac-4a45-a63c-b9d1a351712d@edt.looool.us.kg:443?encryption=none&security=tls&sni=edt.looool.us.kg&fp=randomized&type=ws&host=edt.looool.us.kg&path=%2F%3Fed%3D2560#edgetunnel',
+      target: 'https://vless.iooooi.us.kg',
+      tooltip: 'CF-VLESS订阅器状态监控',
+      statusPageLink: 'https://vless.iooooi.us.kg',
       timeout: 10000,
     },
   ],
