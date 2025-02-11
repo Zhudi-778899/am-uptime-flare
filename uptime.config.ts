@@ -75,7 +75,7 @@ const workerConfig = {
       id: '93f3e31c-6eac-4a45-a63c-b9d1a351712d@edt.looool.us.kg:443?encryption=none&security=tls&sni=edt.looool.us.kg&fp=randomized&type=ws&host=edt.looool.us.kg&path=%2F%3Fed%3D2560#edgetunnel',
       name: 'CF-Vless节点',
       // `method` should be `TCP_PING` for tcp monitors
-      method: 'ICMP',
+      method: 'TCP',
       // `target` should be `host:port` for tcp monitors
       target: 'vless://93f3e31c-6eac-4a45-a63c-b9d1a351712d@edt.looool.us.kg:443?encryption=none&security=tls&sni=edt.looool.us.kg&fp=randomized&type=ws&host=edt.looool.us.kg&path=%2F%3Fed%3D2560#edgetunnel',
       tooltip: 'CF-Vless节点有效性检测',
